@@ -1,0 +1,167 @@
+/* SECTION Element selectors */
+
+header {
+  margin-top: 0vh;
+  margin-bottom: 0vh;
+}
+
+main {
+  margin-top: 0vh;
+}
+
+body {
+  margin: 0vh;
+}
+
+img {
+  height: 20rem;
+  width: 30rem;
+  /* object-fit: cover; */
+  object-position: center;
+ 
+
+}
+
+
+/* SECTION Class selectors */
+.blue-background {
+  background-color: #061130;
+}
+
+.background-lightblue {
+  background-color: rgb(219, 235, 240);
+}
+
+.blue-text {
+  /* text-underline-position: below; */
+  color: blue;
+  
+}
+.yellow-text {
+  color: yellow;
+}
+
+.white-text {
+  color: #f4f6f8;
+}
+
+.blue-button {
+  background-color: blue;
+  border-radius: 2rem;
+  border-style: solid;
+  border-color: blue;
+}
+
+.small-image {
+  width: 30px;
+  height: 30px;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.display-flex-end {
+  display: flex;
+  justify-content: flex-end
+}
+.display-even-space {
+  display: flex;
+  justify-content: space-between;
+}
+
+.allign-center {
+  align-items: center;
+
+}
+
+.center-content {
+  display:flex;
+  justify-content: center;
+}
+
+
+.header-card {
+  padding: 0 1rem;
+  justify-content: flex-end;
+}
+
+.padding-left {
+  padding-left: 4rem;
+}
+
+.padding-right {
+  padding-right: 4rem;
+}
+
+.padding-even {
+  padding: 2rem;
+}
+
+.padding-top {
+  padding-top: 2rem;
+}
+
+.padding-top-small {
+  padding-top: .5rem;
+}
+.padding-bottom {
+  padding-bottom: 2rem;
+}
+
+.padding-sides {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.padding-footer {
+  padding: 1rem;
+}
+
+.padding-none {
+  padding: 0rem;
+}
+
+.margin-none {
+  margin: 0rem;
+}
+
+.margin-bottom-none {
+  margin-bottom: 0rem;
+}
+
+.margin-top-small {
+  margin-top: 1rem;
+}
+
+.padding-none {
+  padding: 0rem;
+}
+
+.padding-bottom-none {
+  padding-bottom: 0;
+}
+
+.paragraph-main {
+  max-width: 20%;
+}
+
+.paragraph-alt {
+  max-width: 85%;
+}
+
+.small-text {
+  font-size: small;
+}
+
+.big-text {
+  font-size: 2rem;
+}
+
+.font-ariel {
+  font-family: sans-serif
+}
+
+.underline-text {
+  text-underline-position: below;
+}
